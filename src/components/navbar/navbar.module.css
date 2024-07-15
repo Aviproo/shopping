@@ -2,4 +2,28 @@
   display: flex;
   justify-content: space-around;
   list-style-type: none;
+  font-family: sans-serif;
+  color: maroon;
+  margin: 0;
+  padding: 1rem;
+  color: white;
+}
+.ul li {
+  cursor: pointer;
+}
+.ul li:hover {
+  color: bisque;
+}
+.link {
+  text-decoration: none;
+  color: white;
+}
+.main {
+  background-color: darkslategrey;
+}
+@media only screen and (max-width: 600px) {
+  .ul {
+    font-size: small;
+    padding: 0.3rem;
+  }
 }

@@ -16,3 +16,17 @@
   font-size: xx-large;
   margin-right: 2rem;
 }
+@media only screen and (max-width: 600px) {
+  .shop {
+    color: blueviolet;
+    font-style: oblique;
+    font-size: large;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 1rem;
+  }
+  .man {
+    font-size: x-large;
+    margin-right: 1rem;
+  }
+}

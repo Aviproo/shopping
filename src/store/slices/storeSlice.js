@@ -3,11 +3,15 @@ import { createSlice } from "@reduxjs/toolkit";
 const storeSlice = createSlice({
   name: "product",
   initialState: {
-    printHello: "hello reducer",
+    data: null,
   },
   reducers: {
-    print(state) {
-      console.log(state.printHello);
+    setData(state, action) {
+      state.data = action.payload;
+      console.log(state.data);
+    },
+    getData(state) {
+      console.log();
     },
   },
 });
