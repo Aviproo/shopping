@@ -8,11 +8,8 @@ const storeSlice = createSlice({
   reducers: {
     setData(state, action) {
       state.data = action.payload;
-      console.log(state.data);
     },
-    getData(state) {
-      console.log();
-    },
+    getData(state) {},
   },
 });
 
