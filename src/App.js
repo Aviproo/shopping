@@ -9,6 +9,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./components/pages/Home";
 import Career from "./components/pages/Career";
 import Contact from "./components/pages/Contact";
+import Footer from "./components/footer/Footer";
 
 function App() {
   const dispatch = useDispatch();
@@ -29,6 +30,9 @@ function App() {
         <Route path="/career" element={<Career />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <div className="footer">
+        <Footer />
+      </div>
     </div>
   );
 }

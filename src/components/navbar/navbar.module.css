@@ -23,7 +23,7 @@
 }
 @media only screen and (max-width: 600px) {
   .ul {
-    font-size: small;
-    padding: 0.3rem;
+    font-size: x-small;
+    padding: 0.2rem;
   }
 }

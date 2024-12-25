@@ -1,0 +1,14 @@
+.main {
+  display: flex;
+  justify-content: space-around;
+}
+.head {
+  padding: 5px;
+  background: green;
+  color: wheat;
+}
+@media only screen and (max-width: 600px) {
+  .main {
+    font-size: small;
+  }
+}
